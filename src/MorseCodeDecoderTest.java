@@ -6,7 +6,7 @@ public class MorseCodeDecoderTest {
 
         String morseCode = ".... . -.--   .--- ..- -.. .";
         System.out.println("Morse code: " + morseCode);
-        System.out.println("Result decoded: " + MorseCodeDecoder.decode(morseCode));
+        System.out.println("Decoded message: " + MorseCodeDecoder.decode(morseCode));
 
     }
 }
